@@ -238,34 +238,43 @@ export default {
                 // Focus.configure({ className: 'has-focus', mode: 'deepest' }),
 
                 // Optional Marks
-                Bold,
-                Code,
-                Highlight,
-                Italic,
-                Strike,
-                Subscript,
-                Superscript,
-                Underline,
+                // Bold,
+                // Code,
+                // Highlight,
+                // Italic,
+                // Strike,
+                // Subscript,
+                // Superscript,
+                // Underline,
 
                 // Optional Nodes
-                Blockquote,
-                BulletList,
-                CodeBlock,
-                Heading.configure({ levels: [1, 2, 3, 4, 5, 6] }),
-                HorizontalRule,
-                ListItem,
-                OrderedList,
+                // Blockquote,
+                // BulletList,
+                // CodeBlock,
+                Heading.configure({
+                    levels: [
+                        // 1,
+                        2,
+                        3,
+                    // 4,
+                    // 5,
+                    // 6,
+                    ],
+                }),
+                // HorizontalRule,
+                // ListItem,
+                // OrderedList,
 
                 // Optional Extensions
                 History,
-                TextAlign.configure({
-                    types: ['heading', 'paragraph'],
-                    defaultAlignment: 'start',
-                }),
+                // TextAlign.configure({
+                //     types: ['heading', 'paragraph'],
+                //     defaultAlignment: 'start',
+                // }),
 
                 // Optional Custom
                 Link.configure({ openOnClick: false }),
-                Image,
+                // Image,
             ];
 
             return extensions;
