@@ -262,7 +262,7 @@ export default {
                     ],
                 }),
                 // HorizontalRule,
-                // ListItem,
+                ListItem,
                 // OrderedList,
 
                 // Optional Extensions
