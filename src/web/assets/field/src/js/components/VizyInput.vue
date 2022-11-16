@@ -243,13 +243,13 @@ export default {
                 // Highlight,
                 // Italic,
                 // Strike,
-                // Subscript,
-                // Superscript,
+                Subscript,
+                Superscript,
                 // Underline,
 
                 // Optional Nodes
                 // Blockquote,
-                // BulletList,
+                BulletList,
                 // CodeBlock,
                 Heading.configure({
                     levels: [
